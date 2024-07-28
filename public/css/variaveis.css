@@ -1,0 +1,17 @@
+/*Fonte "Black Ops One" Destaque*/
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+/*Font "Courier Prime" Texto do Corpo 400-700*/
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --text-corpo:"Courier Prime", monospace;
+    --text-destaque:"Black Ops One", system-ui;
+    --color-destaque:#2c3014;
+
+    --bg-image-banner:url("/public/images/banner/pexels-davidriano-975771.jpg") no-repeat center;
+    --bg-image-left:url("/public/images/banner/pexels-nandhukumar-339614.jpg") no-repeat center;
+    --bg-image-right:url("/public/images/banner/pexels-jmeyer1220-632280.jpg") no-repeat center;
+    --bg-blender-left:url("/public/images/banner/left.png")no-repeat center;
+    --bg-blender-right:url("/public/images/banner/right.png")no-repeat center;
+    --bg-image-contato:url("/public/images/banner/pexels-iurii-laimin-78973777-14445448.jpg")no-repeat center;
+}

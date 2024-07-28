@@ -1,0 +1,13 @@
+@media (max-width:991px){
+    .sobre .container{flex-direction: column;}
+    .sobre .container .contentText{position: relative;max-width: 100%;}
+    .destaque{margin: 100px;}
+    .destaque .card{flex-direction: column;}
+}
+
+@media (max-width:768px){
+    .sobre .container .img-left,.sobre .container .img-right{height: 200px;}
+    .sobre .container .img-left::before,.sobre .container .img-right::before{background: none;}
+    .slider-wrapper{margin: 0px 10px 40px;}
+    .slider-wrapper .swiper-slide-button{display: none;}
+}

@@ -1,0 +1,8 @@
+header{position:fixed;top: 0;left: 0;width: 100%;display: flex;justify-content: center;align-items: center;padding: 40px 100px;z-index: 1000;}
+header .logo{font-size: 2.9em;font-family: var(--text-destaque);color: black;padding-right: 10px;}
+header ul{position: relative;display: flex;justify-content: center;align-items: center;}
+header ul li{display: inline-block;cursor: pointer;padding: 10px;text-transform: capitalize;}
+header ul li a{color:#000;}
+header ul li a:hover{text-decoration: underline;}
+header.sticky{padding: 5px 100px;background-color:var(--color-destaque);}
+header.sticky ul li a, header.sticky .logo{color: white;}
