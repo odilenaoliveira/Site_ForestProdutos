@@ -1,0 +1,20 @@
+
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 150vh;
+    background: var(--bg-image-banner);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .container{
+    position: absolute;
+    background-color: rgba(0,0,0,0.4);
+    max-width: 900px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.banner .container .title{font-size: 2.9em;color:white;text-transform: uppercase;text-shadow: 0px 0px 10px rgba(0,0,0,0.6);}
+.banner .container p{padding-bottom: 10px;padding-top: 10px; font-size: 1.2em;color:white;text-shadow: 0px 0px 10px rgba(0,0,0,0.6);}

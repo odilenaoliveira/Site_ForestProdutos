@@ -1,0 +1,9 @@
+footer{background:#c3d898;padding: 70px 0;display: block;}
+.row{display: flex;flex-wrap: wrap;}
+.row .box{width: 25%;padding: 0 15px;}
+.row .box a{color: #000;}
+.row .box a:hover{letter-spacing: 2px}
+.row .box .social{display: grid;grid-template-columns: repeat(4,50px);margin-top: 20px;}
+.row .box .social li a{display: inline-block;width: 40px;height: 40px;display: grid;align-items: center;justify-content: center;}
+.social li a img {padding: 8px;background-color: #2c3014;}
+.social li a img:hover {background-color: white;}

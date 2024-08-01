@@ -14,4 +14,6 @@
     --bg-blender-left:url("/public/images/banner/left.png")no-repeat center;
     --bg-blender-right:url("/public/images/banner/right.png")no-repeat center;
     --bg-image-contato:url("/public/images/banner/pexels-iurii-laimin-78973777-14445448.jpg")no-repeat center;
+    --menu-open:url(/public/images/icons/menu-aberto.png)no-repeat center;
+    --menu-close:url(/public/images/icons/cruz.png)no-repeat center;
 }

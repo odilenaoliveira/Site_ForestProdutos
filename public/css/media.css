@@ -1,13 +1,30 @@
 @media (max-width:991px){
+    header{padding: 20px;}
+    header ul{display: none;}
+    header ul.active{position: fixed;top: 0;left: 0;width: 100%;height: 100%;background-color:var(--color-destaque);display: flex;justify-content: center;align-items: center;flex-direction: column;}
+    header ul li{margin: 10px 0;}
+    header ul li a{margin-left: 0;color:white;}
+    .menu-toggle{position: fixed;top: 20px;right: 20px;width: 40px;height: 40px;background: var(--menu-open);background-size: 30px;cursor: pointer;z-index: 1000;}
+    .menu-toggle.active{background: var(--menu-close);background-size: 30px;}
     .sobre .container{flex-direction: column;}
     .sobre .container .contentText{position: relative;max-width: 100%;}
     .destaque{margin: 100px;}
     .destaque .card{flex-direction: column;}
 }
 
+@media (min-width:768px) and (max-width:991px){
+    .destaque .left{width: 50%;height: 100%;}
+    footer .row .box{width: 50%;}
+}
+
 @media (max-width:768px){
+    .sobre{padding-top: 20px;}
     .sobre .container .img-left,.sobre .container .img-right{height: 200px;}
-    .sobre .container .img-left::before,.sobre .container .img-right::before{background: none;}
+    .sobre .container .img-left::before, .sobre .container .img-right::before{background: none;}
+
     .slider-wrapper{margin: 0px 10px 40px;}
     .slider-wrapper .swiper-slide-button{display: none;}
+    .destaque .left{width: 100%;height: 100%;}
+    .artigos{padding:30px;}
+    footer .row .box{width: 100%;padding-top: 10px;}
 }

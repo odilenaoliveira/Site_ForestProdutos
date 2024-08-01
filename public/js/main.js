@@ -26,12 +26,12 @@ var swiper = new Swiper(".slider-wrapper", {
   });
 
 // Menu Sticky
-window.addEventListener("scroll",function(){
+window.addEventListener("scroll", function(){
     var header = document.querySelector("header");
     header.classList.toggle("sticky", window.scrollY>0);
 });
 // Menu responsivo
-const menuToggle = document.querySelector("menu-toggle");
+const menuToggle = document.querySelector(".menu-toggle");
 const navbar = document.querySelector("ul");
 menuToggle.onclick = function(){
     menuToggle.classList.toggle('active');
